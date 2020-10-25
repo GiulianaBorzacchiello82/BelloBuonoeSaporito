@@ -40,9 +40,16 @@ section#header{
     	display: flex;
     	flex-direction: row;
     	flex-wrap: nowrap;
+	height: 40px;
+   	line-height: 40px;
 }
 /******************  PAGINA HOME  *********************/
-
+section.home {
+	height: 35px;
+	background-color: #396083;
+    	color: white;
+    	line-height: 35px;
+}
 section.home p {
 	text-align: center;
 	padding-left: 3%;
