@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Bello buono e saporito </title>
+		<meta name="description" content="BelloBuonoeSaporito è un canale di ricette dove puoi seguire ricette speciali tra i primi piatti, i secondi, i contorni, i dolci e altro ancora come ricette del pane, pizze e altro."/>
+		<link rel="shortcut icon" type="image/x-icon" href="immagini/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="responsive.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#header").load("components/header.html"); 
+    });
+    </script>
+    
+	</head>
+
+	<body>
+    <div id="header"></div>
+
+		<div class="banner">
+		</div>
+
+		<section class="home">
+			<p>"Meditate bene su questo punto: le ore più belle della nostra vita sono tutte collegate, con un legame più o meno tangibili, a un qualche ricordo della tavola."</p>
+		</section>
+		
+		
+		<div class="banner2">
+		</div>
+
+		<footer>
+			<a href="https://www.facebook.com/BelloBuonoeSaporito/?fref=ts" target="blank">
+			<img src="immagini/facebook2.png" class="facebook">
+			</a>
+
+			<a href="https://www.instagram.com/bello_buono_e_saporito/" target="blank">
+			<img src="immagini/instagram.png" class="instagram">
+
+			<a href="https://twitter.com/forestie_andrea" target="blank">
+			<img src="immagini/twitter.png" class="twitter">
+			</a>
+			<p>&copy; Bello Buono e Saporito</p>
+		</footer>
+
+		<!-- Google Analitics -->
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-92678817-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
+
+
+		<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-93240119-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	
+	
+	</body>
+
+</html>
