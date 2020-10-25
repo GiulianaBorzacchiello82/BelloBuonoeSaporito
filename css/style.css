@@ -29,10 +29,18 @@ body {
 
 
 #header a {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 }
 
+section#header{
+	
+	background-color: white;
+    	color: black;
+    	display: flex;
+    	flex-direction: row;
+    	flex-wrap: nowrap;
+}
 /******************  PAGINA HOME  *********************/
 
 section.home p {
@@ -80,7 +88,7 @@ section.home p {
 .nav {
 	background-color: #ffffff;
 	text-align: center;
-	background-color: #396083;
+	/*background-color: #396083;*/
 	margin-top: 0px;
 	margin-bottom: 0;
 	padding: 0px 0px 0px 0px;
