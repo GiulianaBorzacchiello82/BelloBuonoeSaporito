@@ -29,7 +29,7 @@ body {
 
 
 #header a {
-	color: #000000;
+	color: #585858;
 	text-decoration: none;
 }
 
@@ -114,19 +114,21 @@ section.home p {
 .nav {
 	background-color: #ffffff;
 	text-align: center;
-	/*background-color: #396083;*/
 	margin-top: 0px;
 	margin-bottom: 0;
 	padding: 0px 0px 0px 0px;
+	height: 100%;
 }
 .nav li {
 	display: inline-block;
 	margin: 0 10px 0 10px;
 	padding: 6px 8px 6px 8px;
+	height: 100%;
 }
 
 .nav li:hover {
 	background-color: #3E6990;
+	color:#ffffff;
 }
 
 .nav li.index {
