@@ -56,6 +56,12 @@ section#header #logo span.desc {
 			display:block;
 			color: #585858;
 }
+
+section#header #menu {
+		margin-left: 50px;
+}
+
+
 /******************  PAGINA HOME  *********************/
 section.home {
 	height: 35px;
