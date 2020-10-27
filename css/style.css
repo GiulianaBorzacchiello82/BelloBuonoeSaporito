@@ -1,6 +1,6 @@
 /****************** HEADER *********************/
 
-
+ 
 h1 {
     font-size: 2,5em;
     text-align: center;
@@ -41,23 +41,21 @@ section#header{
     	justify-content: flex-start;
     	flex-wrap: wrap;
 	margin: 10px 20px;
-	
-	#logo {
-		span.name {
-			color:#3E6990; 
+}
+section#header #logo span.name {
+		 	color:#3E6990; 
 			display:block;
 			font-style: italic;
 			font-size: 20px;
     			margin-bottom: 10px;
     			font-weight: bold;
     			font-family: "Trebuchet MS", Helvetica, sans-serif;
-		}
-		span.desc {
+}
+
+section#header #logo span.desc {
 			display:block;
 			color: #585858;
-		}
-	}
-    }
+}
 /******************  PAGINA HOME  *********************/
 section.home {
 	height: 35px;
