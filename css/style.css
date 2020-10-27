@@ -35,13 +35,13 @@ body {
 
 section#header{
 	
-	background-color: white;
-    	color: black;
-    	display: flex;
-    	flex-direction: row;
-    	flex-wrap: nowrap;
-	height: 40px;
-   	line-height: 40px;
+	    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* height: 40px; */
+    /* line-height: 40px;
 }
 /******************  PAGINA HOME  *********************/
 section.home {
