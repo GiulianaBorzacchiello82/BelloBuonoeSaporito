@@ -1,6 +1,3 @@
-/****************** HEADER *********************/
-
- 
 h1 {
     font-size: 2,5em;
     text-align: center;
@@ -27,7 +24,7 @@ body {
 	color: #000000;
 }
 
-
+/****************** HEADER *********************/
 #header a {
 	color: #585858;
 	text-decoration: none;
@@ -62,6 +59,55 @@ section#header #menu {
 		margin-left: 50px;
 }
 
+
+.nav {
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+}
+.nav li {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+	padding: 6px 8px 6px 8px;
+	height: 100%;
+}
+
+.nav li:hover {
+	background-color: #3E6990;
+	color:pink;
+}
+
+.nav li.index {
+	background-color: #3E6990;
+}
+
+.nav li.primipiatti {
+	background-color: #3E6990;
+}
+
+.nav li.secondi {
+	background-color: #3E6990;
+}
+
+.nav li.panepizzae {
+	background-color: #3E6990;
+}
+
+.nav li.dolci {
+	background-color: #3E6990;
+}
+
+
+.nav li.altro {
+	background-color: #3E6990;
+}
+
+.nav li.contatti {
+	background-color: #3E6990;
+}
 
 /******************  PAGINA HOME  *********************/
 section.home {
@@ -111,55 +157,6 @@ section.home p {
 }
 
 /******************  VOCI (PRIMI PIATTI, SECONDI ECC.) *********************/
-
-.nav {
-	background-color: #ffffff;
-	text-align: center;
-	margin-top: 0px;
-	margin-bottom: 0;
-	padding: 0px 0px 0px 0px;
-	height: 100%;
-}
-.nav li {
-	display: inline-block;
-	margin: 0 10px 0 10px;
-	padding: 6px 8px 6px 8px;
-	height: 100%;
-}
-
-.nav li:hover {
-	background-color: #3E6990;
-	color:#ffffff;
-}
-
-.nav li.index {
-	background-color: #3E6990;
-}
-
-.nav li.primipiatti {
-	background-color: #3E6990;
-}
-
-.nav li.secondi {
-	background-color: #3E6990;
-}
-
-.nav li.panepizzae {
-	background-color: #3E6990;
-}
-
-.nav li.dolci {
-	background-color: #3E6990;
-}
-
-
-.nav li.altro {
-	background-color: #3E6990;
-}
-
-.nav li.contatti {
-	background-color: #3E6990;
-}
 
 section#spazio {
 	margin-top: 2em;
