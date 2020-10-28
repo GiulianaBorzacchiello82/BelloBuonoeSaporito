@@ -55,6 +55,7 @@ section#header #logo span.name {
 section#header #logo span.desc {
 			display:block;
 			color: #585858;
+			font-style: italic;
 }
 
 section#header #menu {
