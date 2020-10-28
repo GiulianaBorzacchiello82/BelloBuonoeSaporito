@@ -76,7 +76,7 @@ section#header #menu {
 }
 
 .nav li:hover {
-	background-color: #3E6990;
+	background-color: red;
 	color:pink;
 }
 
