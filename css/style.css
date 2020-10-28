@@ -80,7 +80,7 @@ section#header #menu {
 }
 
 .nav li:hover a {
-    color: white;
+    color: white !important;
 }
 
 .nav li.index {
