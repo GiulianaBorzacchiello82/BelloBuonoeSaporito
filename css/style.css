@@ -76,8 +76,8 @@ section#header #menu {
 }
 
 .nav li:hover {
-	background-color: red;
-	color:pink;
+	background-color:  #3E6990;
+	color: white;
 }
 
 .nav li.index {
