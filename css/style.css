@@ -119,6 +119,11 @@ section.home {
     	color: white;
     	line-height: 35px;
 }
+
+section.home span {
+    font-size: 13px;
+    font-style: italic;
+}
 section.home p {
 	text-align: center;
 	padding-left: 3%;
