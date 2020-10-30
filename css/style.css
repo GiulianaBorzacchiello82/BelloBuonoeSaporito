@@ -126,6 +126,17 @@ section.home span {
     font-size: 13px;
     font-style: italic;
 }
+
+section.home span.iconsSocial {
+	float: right;
+    	font-size: 19px;
+    	line-height: 34px;
+}
+
+section.home span.iconsSocial i.fa{
+	padding: 0px 10px;
+}
+
 section.home p {
 	text-align: center;
 	padding-left: 3%;
