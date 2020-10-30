@@ -22,6 +22,7 @@ h3 {
 body {
 	font-family: Corbel, arial;
 	color: #000000;
+	padding: 0px 20px;
 }
 
 /****************** HEADER *********************/
@@ -118,6 +119,7 @@ section.home {
 	background-color: #3E6990;
     	color: white;
     	line-height: 35px;
+	padding: 0 10px;
 }
 
 section.home span {
