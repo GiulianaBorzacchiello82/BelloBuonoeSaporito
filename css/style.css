@@ -135,6 +135,7 @@ section.home span.iconsSocial {
 
 section.home span.iconsSocial i.fa{
 	padding: 0px 10px;
+	cursor:pointer;
 }
 
 section.home p {
