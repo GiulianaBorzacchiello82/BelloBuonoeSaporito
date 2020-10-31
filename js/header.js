@@ -17,6 +17,7 @@ $.when(maindeferred).then(function() {
 
 $(document).ready(function() {
 	
+ $( "#header").load( "components/header.html", function() {
     $("#menu .nav li.ricette").on("mouseenter", function(){
     	$("#subHeader span.desc").addClass("hide");
     	$("#subHeader span.desc").removeClass("hide");
@@ -35,5 +36,6 @@ $(document).ready(function() {
     	$(this).data("mouseleavetimeout", mouseleavetimeout);
     });
     
+});
 
 })
