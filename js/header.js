@@ -13,7 +13,7 @@ var evt = isMobile() ? 'touchend' : 'click';
 
 $(document).ready(function() {
 	
-    $(".menu .nav #ricette").on("mouseenter", function(){
+    $("#menu .nav li.ricette").on("mouseenter", function(){
     	$("#subHeader span.desc").addClass("hide");
     	$("#subHeader span.desc").removeClass("hide");
     })
