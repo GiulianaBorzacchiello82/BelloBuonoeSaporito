@@ -1,3 +1,5 @@
+var maindeferred = $.Deferred();
+var evt = isMobile() ? 'touchend' : 'click';
 
 /**
  * Verifica se il dispositivo con il quale si accede all'applicazione è Mobile
@@ -8,8 +10,10 @@ function isMobile() {
 	return isMobile;
 }
 
+$.when(maindeferred).then(function() {
 
-var evt = isMobile() ? 'touchend' : 'click';
+	alert("s");
+});	
 
 $(document).ready(function() {
 	
