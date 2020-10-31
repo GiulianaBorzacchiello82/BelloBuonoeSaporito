@@ -1,3 +1,14 @@
+
+/**
+ * Verifica se il dispositivo con il quale si accede all'applicazione è Mobile
+ */
+function isMobile() {
+	
+	var isMobile = ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+	return isMobile;
+}
+
+
 var evt = isMobile() ? 'touchend' : 'click';
 
 $(document).ready(function() {
