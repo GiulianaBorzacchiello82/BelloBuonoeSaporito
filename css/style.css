@@ -63,6 +63,11 @@ section#header #menu {
 		margin-left: 50px;
 }
 
+section#subHeader{
+	display: flex;
+    	justify-content: flex-start;
+    	flex-wrap: wrap;
+}
 
 .nav {
 	background-color: #3E6990;
@@ -76,7 +81,7 @@ section#header #menu {
 	display: inline-block;
 	margin: 0 10px 0 10px;
 	padding: 6px 8px 6px 8px;
-	height: 100%;
+	height: 90%;
 }
 
 .nav li:hover {
