@@ -65,8 +65,9 @@ section#header #menu {
 
 section#subHeader{
 	display: flex;
-    	justify-content: flex-start;
+    	justify-content: space-between
     	flex-wrap: wrap;
+	border-top: 1px solid;
 }
 
 .nav {
@@ -123,7 +124,6 @@ section#subHeader{
 
 /******************  PAGINA HOME  *********************/
 section.home {
-	height: 35px;
 	background-color: #3E6990;
     	color: white;
     	line-height: 35px;
