@@ -297,7 +297,7 @@ footer {
     	flex-wrap: wrap;
 }
 
-footer .iconsSocial { color:white;}
+footer .iconsSocial a{ color:white;}
 
 footer .iconsSocial i { padding: 0 15px;}
 
