@@ -27,25 +27,25 @@ h3 {
 body {
 	font-family: Corbel, arial;
 	color: #000000;
+	background-color: #3E6990;
 }
 
 /****************** HEADER *********************/
 #header a {
-	color: #585858;
+	color: white;
 	text-decoration: none;
 }
 
 section#header{
-	
-	background-color: white;
+	background-color: #3E6990;
     	color: black;
     	display: flex;
     	justify-content: flex-start;
     	flex-wrap: wrap;
-	margin: 10px 20px;
+    	margin: 10px 20px;
 }
 section#header #logo span.name {
-		 	color:#3E6990; 
+		 	color:white; 
 			display:block;
 			font-style: italic;
 			font-size: 25px;
@@ -55,7 +55,7 @@ section#header #logo span.name {
 
 section#header #logo span.desc {
 			display:block;
-			color: #585858;
+			color: white;
 			font-style: italic;
 }
 
@@ -65,7 +65,7 @@ section#header #menu {
 
 
 .nav {
-	background-color: #ffffff;
+	background-color: #3E6990;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0;
@@ -84,7 +84,7 @@ section#header #menu {
 }
 
 .nav li:hover a {
-    color: white !important;
+	font-weight: bold;
 }
 
 .nav li.index {
