@@ -287,14 +287,14 @@ iframe {
 /****************** FOOTER *********************/
 
 footer {
-	  
 	background-color: #3E6990;
 	padding: 5px 5px 10px 5px;
 	font-size: 0.85em;
 	clear: both;
 	margin-bottom: 0;
-
 }
+
+footer a{ color:white;}
 
 footer img {
 	max-width: 9%;
