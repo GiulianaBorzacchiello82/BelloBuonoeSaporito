@@ -292,9 +292,14 @@ footer {
 	font-size: 0.85em;
 	clear: both;
 	margin-bottom: 0;
+	display: flex;
+    	justify-content: space-between;
+    	flex-wrap: wrap;
 }
 
-footer a{ color:white;}
+footer .iconSocial { color:white;}
+
+footer .iconSocial i { padding: 0 15px;}
 
 footer img {
 	max-width: 9%;
