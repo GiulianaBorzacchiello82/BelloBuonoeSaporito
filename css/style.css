@@ -295,7 +295,9 @@ footer {
 	display: flex;
     	justify-content: space-between;
     	flex-wrap: wrap;
-	line-height: 35px;
+	line-height: 30px;
+	color: white;
+	height: 20px;
 }
 
 footer .iconsSocial {
