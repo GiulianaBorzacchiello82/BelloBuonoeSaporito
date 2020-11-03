@@ -295,6 +295,11 @@ footer {
 	display: flex;
     	justify-content: space-between;
     	flex-wrap: wrap;
+	line-height: 35px;
+}
+
+footer .iconsSocial {
+	line-height: 35px;
 }
 
 footer .iconsSocial a{ color:white;}
