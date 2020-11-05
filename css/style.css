@@ -36,6 +36,10 @@ body {
 	text-decoration: none;
 }
 
+#header a:hover {
+	border-bottom: 1px solid;
+}
+
 section#header{
 	background-color: #3E6990;
     	color: black;
