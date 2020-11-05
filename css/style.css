@@ -166,7 +166,7 @@ section.home p {
 .banner {
 	text-align: center;
 	padding: 20em 0 1em 0;
-	background-image: url(immagini/food2.jpg);
+	background-image: url(../immagini/food2.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat; 
@@ -183,7 +183,7 @@ section.home p {
 
 .banner2 {
 	padding: 17em 0 1em 0;
-	background-image: url(immagini/food.jpg);
+	background-image: url(../immagini/food.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat; 
@@ -275,19 +275,19 @@ iframe {
 
 
 #contatti-info li.mail a {
-	background-image: url(immagini/mail.png); 
+	background-image: url(../immagini/mail.png); 
 }
 
 #contatti-info li.twitter a {
-	background-image: url(immagini/fb1.png); 
+	background-image: url(../immagini/fb1.png); 
 	       }
 
 #contatti-info li.fb a {
-	background-image: url(immagini/fb1.png); 
+	background-image: url(../immagini/fb1.png); 
 	       }
 
 #contatti-info li.instagram a {
-	background-image: url(immagini/instagram.ico); 
+	background-image: url(../immagini/instagram.ico); 
 	       }
 /****************** FOOTER *********************/
 
