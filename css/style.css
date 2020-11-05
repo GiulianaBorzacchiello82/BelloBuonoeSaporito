@@ -308,7 +308,10 @@ footer {
 footer .iconsSocial {
 }
 
-footer .iconsSocial a{ color:white;}
+footer .iconsSocial a{ 
+			color:white;
+		    text-decoration: none;
+	}
 
 footer .iconsSocial i { padding: 0 15px;}
 
