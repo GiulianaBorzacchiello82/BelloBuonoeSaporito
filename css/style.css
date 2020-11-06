@@ -136,7 +136,7 @@ section.home {
 }
 
 section.home span {
-    font-size: 13px;
+    font-size: 15px;
     font-style: italic;
 }
 
@@ -294,15 +294,15 @@ iframe {
 footer {
 	background-color: #3E6990;
 	padding: 5px 5px 10px 5px;
-	font-size: 0.85em;
+	font-size: 17px;
 	clear: both;
 	margin-bottom: 0;
 	display: flex;
     	justify-content: space-between;
     	flex-wrap: wrap;
-	line-height: 30px;
+	line-height: 45px;
 	color: white;
-	height: 20px;
+	height: 40px;
 }
 
 footer .iconsSocial {
