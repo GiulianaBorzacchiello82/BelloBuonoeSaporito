@@ -34,7 +34,7 @@ $(document).ready(function() {
 				clearTimeout(mouseleavetimeout);
 			}
     			mouseleavetimeout = setTimeout(function() {
-    				if ( !$(e.relateTarget).hasClass("userMenuList") ) {
+    				if ( !$(e.relatedTarget).hasClass("subHeader") ) {
           				$("#subHeader span.desc").removeClass("hide");
       	  				$("#subHeader span.ricette").addClass("hide");
         			}
