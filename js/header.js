@@ -1,14 +1,14 @@
 var maindeferred = $.Deferred();
 var evt = isMobile() ? 'touchend' : 'click';
 
-$( window ).resize(function() {
+$(window).resize(function() {
  resizePage();
 });
 
 function resizePage() {
 	
 	var h = $(window).height()-$("#header").height()-$("#subHeader").height()-$("footer").height()
-	$("#mainContainer").height(h);
+	$("#mainContainer").css("max-height",h);
 }
 /**
  * Verifica se il dispositivo con il quale si accede all'applicazione è Mobile
