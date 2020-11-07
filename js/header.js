@@ -9,6 +9,7 @@ function resizePage() {
 	
 	var h = $(window).height()-$("#header").height()-$("#subHeader").height()-$("footer").height()
 	$("#mainContainer").css("max-height",h);
+	$("#mainContainer").css("height",h);
 }
 /**
  * Verifica se il dispositivo con il quale si accede all'applicazione è Mobile
