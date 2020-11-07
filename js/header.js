@@ -8,7 +8,7 @@ $( window ).resize(function() {
 function resizePage() {
 	
 	var h = $(window).height()-$("#header").height()-$("#subHeader").height()-$("footer").height()
-	("#mainContainer").height(h);
+	$("#mainContainer").height(h);
 }
 /**
  * Verifica se il dispositivo con il quale si accede all'applicazione è Mobile
