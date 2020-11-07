@@ -1,6 +1,15 @@
 var maindeferred = $.Deferred();
 var evt = isMobile() ? 'touchend' : 'click';
 
+$( window ).resize(function() {
+ resizePage();
+});
+
+function resizePage() {
+	
+	var h = $(window).height()-$("#header").height()-$("#subHeader").height()-$("footer").height()
+	("#mainContainer").height(h);
+}
 /**
  * Verifica se il dispositivo con il quale si accede all'applicazione è Mobile
  */
@@ -14,8 +23,7 @@ $(document).ready(function() {
 	
 	$( "#header").load( "components/header.html", function() {
 
-		var h = $("body").height()-$("#header").height()-$("#subHeader").height()-$("footer").height()
-		$("#mainContainer").height(h);
+		resizePage();
 		$("#menu .nav li.ricette").on("mouseenter", function(){
 			$("#subHeader span.desc").addClass("hide");
 			$("#subHeader span.ricette").removeClass("hide");
