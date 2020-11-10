@@ -174,7 +174,7 @@ section.home p {
 	background-repeat: no-repeat; 
 	width: 100%;
    	height: calc(100vh - 350px);
-   	min-height: 450px;
+   	min-height: 150px;
 }
 
 .banner2 p {
