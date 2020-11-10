@@ -173,8 +173,8 @@ section.home p {
 	background-size: cover;
 	background-repeat: no-repeat; 
 	width: 100%;
-   	height: calc(100vh - 100px);
-   	min-height: 500px;
+   	height: calc(100vh - 350px);
+   	min-height: 450px;
 }
 
 .banner2 p {
