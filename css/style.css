@@ -161,7 +161,9 @@ section.home p {
 }
 
 
-/******************  PAGINA HOME FOTO e BANNER *********************/
+/******************  PAGINA HOME FOTO e 
+
+*********************/
 
 .banner {
 	text-align: center;
@@ -170,6 +172,9 @@ section.home p {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat; 
+	width: 100%;
+   	height: calc(100vh - 100px);
+   	min-height: 500px;
 }
 
 .banner2 p {
