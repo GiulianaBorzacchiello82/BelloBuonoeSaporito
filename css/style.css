@@ -342,3 +342,12 @@ footer p {
 .container {
 	min-height: 100vh;
 }
+
+
+/* Smartphone o piccoli Tablet */
+@media all and (max-width: 480px) {
+  body {
+  	color: red !important;
+	}
+}	
+
