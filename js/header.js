@@ -21,6 +21,14 @@ function isMobile() {
 
 $(document).ready(function() {
 	
+	
+	$("#subHeader").on("mouseleave", function(e) {
+    		$("#subHeader span.desc").removeClass("hide");
+      		if (!$("#subHeader span.ricette").hasClass("hide") ) {
+			$("#subHeader span.ricette").addClass("hide");
+		}	
+       });
+	
 	$( "#header").load( "components/header.html", function() {
 
 		resizePage();
