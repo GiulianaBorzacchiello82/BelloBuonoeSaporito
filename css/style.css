@@ -348,7 +348,11 @@ footer p {
 @media all and (max-width: 480px) {
   
 	section#header{
-		justify-content:space-between
+		justify-content:space-between;
+	}
+	
+	.nav {
+		display:none;
 	}
 }	
 
