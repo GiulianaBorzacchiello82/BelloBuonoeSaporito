@@ -45,7 +45,7 @@ section#header{
     	color: black;
     	display: flex;
     	justify-content: flex-start;
-    	flex-wrap: wrap;
+   	flex-wrap: wrap;
     	margin: 10px 20px;
 }
 section#header #logo span.name {
@@ -346,8 +346,9 @@ footer p {
 
 /* Smartphone o piccoli Tablet */
 @media all and (max-width: 480px) {
-  body {
-  	color: red !important;
+  
+	section#header{
+		justify-content:space-between
 	}
 }	
 
