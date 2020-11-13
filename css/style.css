@@ -68,7 +68,8 @@ section#header #logo span.desc {
 }
 
 section#header #menu {
-		margin-left: 50px;
+	margin-left: 50px;
+	color: white;
 }
 
 section#subHeader{
@@ -360,7 +361,12 @@ footer p {
 	}
 	
 	.mobile {
-		display:block;
+		display:block !important;
+	}
+	
+	.fa-bars.mobile{
+		font-size: 30px;
+    		line-height: 40px;
 	}
 }	
 
