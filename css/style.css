@@ -3,6 +3,10 @@
 	display:none;
 }
 
+.mobile {
+	display:none;
+}
+
 h1 {
     font-size: 2,5em;
     text-align: center;
@@ -353,6 +357,10 @@ footer p {
 	
 	.nav {
 		display:none;
+	}
+	
+	.mobile {
+		display:block;
 	}
 }	
 
