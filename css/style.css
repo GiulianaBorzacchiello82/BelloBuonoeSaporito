@@ -133,6 +133,15 @@ section#subHeader{
 }
 
 /******************  PAGINA HOME  *********************/
+
+#mainContainer .desc { font-weight: bold;
+    background-color: white;
+    font-family: 'Indie Flower', Corbel, arial;
+    height: auto;
+    line-height: 25px;
+    display: block;
+}
+
 section.home {
 	background-color: #3E6990;
     	color: white;
