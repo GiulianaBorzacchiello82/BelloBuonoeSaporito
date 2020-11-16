@@ -41,7 +41,8 @@ body {
 }
 
 #header a:hover {
-	border-bottom: 1px solid;
+	 opacity: 0.5;
+	background-color:#396083;
 }
 
 section#header{
@@ -70,6 +71,8 @@ section#header #logo span.desc {
 section#header #menu {
 	margin-left: 50px;
 	color: white;
+	margin-top: 20px;
+	font-weight: bold;
 }
 
 section#subHeader{
