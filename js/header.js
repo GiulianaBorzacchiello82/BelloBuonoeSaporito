@@ -42,7 +42,7 @@ $(document).ready(function() {
 				clearTimeout(mouseleavetimeout);
 			}
     			mouseleavetimeout = setTimeout(function() {
-    				if ( !$(e.relatedTarget).hasClass("subHeader")  && !$(e.relatedTarget).hasClass("nav") ) {
+    				if ( !$(e.relatedTarget).hasClass("subHeader")  && !$(e.relatedTarget).hasClass("ricette") &&  !$(e.relatedTarget).hasClass("nav") ) {
           				$("#subHeader span.desc").removeClass("hide");
       	  				$("#subHeader span.ricette").addClass("hide");
         			}
