@@ -132,6 +132,22 @@ section#subHeader{
 	background-color: #3E6990;
 }
 
+.ricette ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ricette ul li {
+	 background-color: #FF831C;
+    border-bottom: 5px solid #54BAE2;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left; 
+}
+
 /******************  PAGINA HOME  *********************/
 
 #mainContainer .desc { font-weight: bold;
