@@ -40,8 +40,8 @@ body {
 	text-decoration: none;
 }
 
-#header a:hover {
-	 opacity: 0.5;
+#header li:hover {
+	opacity: 0.5;
 	background-color:#396083;
 }
 
