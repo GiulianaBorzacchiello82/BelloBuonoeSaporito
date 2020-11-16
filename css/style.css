@@ -83,7 +83,7 @@ section#subHeader{
 .nav {
 	background-color: #3E6990;
 	text-align: center;
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-bottom: 0;
 	padding: 0px 0px 0px 0px;
 	height: 100%;
@@ -91,7 +91,7 @@ section#subHeader{
 .nav li {
 	display: inline-block;
     	margin: 0 10px 0 10px;
-    	padding: 6px 8px 4px 8px;
+    	padding: 0px 8px 0px 8px;
     	height: 100%;
 }
 
