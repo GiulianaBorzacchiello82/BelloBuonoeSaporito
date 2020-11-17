@@ -32,7 +32,12 @@ $(document).ready(function() {
 	$( "#header").load( "components/header.html", function() {
 
 		resizePage();
-		$("#menu .nav li.ricette").on("mouseenter", function(){
+		$("#menu .nav li.home a, #menu .nav li.contatti a").on("mouseenter", function(e){
+			e.stopPropagation();
+			//$("#subHeader span.desc").addClass("hide");
+			//$("#subHeader span.ricette").removeClass("hide");
+	   	 });
+		$("#menu .nav li.ricette a").on("mouseenter", function(e){
 			$("#subHeader span.desc").addClass("hide");
 			$("#subHeader span.ricette").removeClass("hide");
 	   	 })
