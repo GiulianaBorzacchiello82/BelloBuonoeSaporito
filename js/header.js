@@ -35,7 +35,7 @@ $(document).ready(function() {
 		$("#menu .nav li.home a, #menu .nav li.contatti a").on("mouseenter", function(e){
 			e.stopPropagation();
 			$("#subHeader span.desc").removeClass("hide");
-			if (!$("#subHeader span.ricette").hasClass("hide") {
+			if (!$("#subHeader span.ricette").hasClass("hide")) {
 			    $("#subHeader span.ricette").addClass("hide");
 			}
 	   	 });
