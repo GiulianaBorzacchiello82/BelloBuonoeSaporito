@@ -31,7 +31,7 @@ h3 {
 body {
 	font-family: Corbel, arial;
 	color: #000000;
-	background-color: #3E6990;
+	/*background-color: #3E6990;*/
 }
 
 /****************** HEADER *********************/
@@ -86,7 +86,6 @@ section#subHeader{
 .nav {
 	background-color: #3E6990;
 	text-align: center;
-	margin-top: 10px;
 	margin-bottom: 0;
 	padding: 0px 0px 0px 0px;
 	height: 100%;
