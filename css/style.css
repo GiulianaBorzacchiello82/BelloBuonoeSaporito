@@ -165,8 +165,7 @@ section#subHeader{
 }
 
 section.home {
-	background-color: #3E6990;
-    	color: white;
+	color: black;
     	line-height: 35px;
 	padding: 0 10px;
 }
