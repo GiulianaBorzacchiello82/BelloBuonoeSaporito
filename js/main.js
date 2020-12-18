@@ -1,4 +1,4 @@
-snow_img = "../img/neve.gif";
+snow_img = "../immagini/neve.gif";
 snow_no = 15;
 
 if (typeof(window.pageYOffset) == "number")
