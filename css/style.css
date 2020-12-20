@@ -1,6 +1,3 @@
-#cursoreNatalizioByIole, #cursorePupazzoNeveByIole{
-	display:none;
-}
 
 
 .hide {
@@ -38,7 +35,7 @@ body {
 	/*background-color: #3E6990;*/
 }
 
-/****************** HEADER ********************
+/****************** HEADER ********************/
 #header a {
 	color: white;
 	text-decoration: none;
