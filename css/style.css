@@ -1,4 +1,6 @@
-
+#cursorePupazzoNeveByIole {
+	display:none;
+}
 
 .hide {
 	display:none;
@@ -388,4 +390,13 @@ footer p {
 	.desktop {
 		display:none !important;	
 	}
+}
+
+/* Smartphone o piccoli Tablet */
+@media all and  (max-width: 650px) {
+  
+	.nav {
+		padding:0 85px;
+	}
+	
 }
