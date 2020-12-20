@@ -1,4 +1,4 @@
-/****************** HEADER *********************/
+/****************** HEADER ********************
 
 
 h1 {
@@ -33,8 +33,6 @@ body {
 	text-decoration: none;
 }
 
-/******************  PAGINA HOME  *********************/
-
 section.home p {
 	text-align: center;
 	padding-left: 3%;
@@ -44,8 +42,6 @@ section.home p {
 
 }
 
-
-/******************  PAGINA HOME FOTO e BANNER *********************/
 
 .banner {
 	text-align: center;
@@ -75,7 +71,6 @@ section.home p {
 
 }
 
-/******************  VOCI (PRIMI PIATTI, SECONDI ECC.) *********************/
 
 .nav {
 	background-color: #ffffff;
@@ -129,7 +124,6 @@ section#spazio {
 	margin-bottom: 2em;
 }
 
-/****************** contenuto PAGINE "PRIMI PIATTI, SECONDI E CONTORNI, DOLCI ALTRO" *********************/
 
 section li a {
 	text-decoration: none;
@@ -179,8 +173,6 @@ iframe {
 	padding: 5%;
 }
 
-/***************CONTATTI*****************/
-
 .foto-profilo {
 	display: block;
 	border-radius: 100%;
@@ -220,7 +212,6 @@ iframe {
 #contatti-info li.instagram a {
 	background-image: url(immagini/instagram.ico); 
 	       }
-/****************** FOOTER *********************/
 
 footer {
 	  
@@ -254,3 +245,4 @@ footer p {
 .container {
 	min-height: 100vh;
 }
+*/
