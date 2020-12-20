@@ -396,9 +396,9 @@ footer p {
     
 	}
 	
-	/*.nav {
-		display:none;
-	}*/
+	ul.nav {
+		padding:0 80px;
+	}
 	
 	.fa-bars.mobile{
 		font-size: 30px;
