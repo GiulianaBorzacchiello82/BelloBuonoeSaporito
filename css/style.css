@@ -396,10 +396,6 @@ footer p {
     
 	}
 	
-	ul.nav {
-		padding:0 80px;
-	}
-	
 	.fa-bars.mobile{
 		font-size: 30px;
     		line-height: 40px;
@@ -412,5 +408,14 @@ footer p {
 	.desktop {
 		display:none !important;	
 	}
+}	
+
+/* Smartphone o piccoli Tablet */
+@media all and (max-width: 1000px) {
+  
+	ul.nav {
+		padding:0 80px;
+	}
+	
 }	
 
