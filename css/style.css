@@ -411,7 +411,7 @@ footer p {
 }	
 
 /* Smartphone o piccoli Tablet */
-@media all and (max-width: 437px) {
+@media all and  (max-width: 437px) {
   
 	ul.nav {
 		padding:0 150px !important;
@@ -421,7 +421,7 @@ footer p {
 
 
 /* Smartphone o piccoli Tablet */
-@media all and (max-width: 1000px) {
+@media all and (min-width: 438px) and (max-width: 1000px) {
   
 	ul.nav {
 		padding:0 80px !important;
