@@ -1,6 +1,254 @@
-#cursorePupazzoNeveByIole, #cursoreNatalizioByIole {
-	display:none;
+/******************************** OLD   ***************/
+/****************** HEADER *********************/
+
+
+h1 {
+    font-size: 2,5em;
+    text-align: center;
+    background-color: #3E6990; 
+    padding: 0.5em 0.4em 0.2em 0.4em;
+    margin: 0 auto;
+    font-family:'Indie Flower', Corbel, arial;
 }
+
+h2 {
+	text-align: center;
+	color: #ffffff;
+	background-color: #3E6990; 
+    margin: 0px auto;
+    padding: 0.1em 0.4em 0.8em 0.4em;
+}
+
+h3 {
+    margin-left: 2em;
+}
+
+body {
+	font-family: Corbel, arial;
+	color: #000000;
+}
+
+
+#header a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+section.home p {
+	text-align: center;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-weight: bold;
+	font-size: 1em;
+
+}
+
+
+.banner {
+	text-align: center;
+	padding: 20em 0 1em 0;
+	background-image: url(immagini/food2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+
+.banner2 p {
+	font-size: 1.3em;
+	color: #ffffff;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.banner2 {
+	padding: 17em 0 1em 0;
+	background-image: url(immagini/food.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	
+
+}
+
+
+.nav {
+	background-color: #ffffff;
+	text-align: center;
+	background-color: #396083;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px 0px 0px 0px;
+}
+.nav li {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+	padding: 6px 8px 6px 8px;
+}
+
+.nav li:hover {
+	background-color: #3E6990;
+}
+
+.nav li.index {
+	background-color: #3E6990;
+}
+
+.nav li.primipiatti {
+	background-color: #3E6990;
+}
+
+.nav li.secondi {
+	background-color: #3E6990;
+}
+
+.nav li.panepizzae {
+	background-color: #3E6990;
+}
+
+.nav li.dolci {
+	background-color: #3E6990;
+}
+
+
+.nav li.altro {
+	background-color: #3E6990;
+}
+
+.nav li.contatti {
+	background-color: #3E6990;
+}
+
+section#spazio {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+section li a {
+	text-decoration: none;
+}
+
+.wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5% 5px 5%;
+	
+}
+
+.clearfix:after {
+	content: " ";
+	display: table;
+	clear: both;
+	}
+
+#gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+    	flex-direction: row;
+    	flex-wrap: wrap;
+	
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+
+iframe {
+	max-width: 100%;
+}
+
+#gallery li a p {
+	font-size: 0,85em;
+	color: #000000;
+	margin: 0;
+	padding: 5%;
+}
+
+.foto-profilo {
+	display: block;
+	border-radius: 100%;
+	max-width: 200px;
+	margin: 0 auto 40px;
+}
+
+#contatti-info {
+	list-style: none;
+	
+}
+
+
+#contatti-info a {
+	color: #000000;
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+
+#contatti-info li.mail a {
+	background-image: url(immagini/mail.png); 
+}
+
+#contatti-info li.twitter a {
+	background-image: url(immagini/fb1.png); 
+	       }
+
+#contatti-info li.fb a {
+	background-image: url(immagini/fb1.png); 
+	       }
+
+#contatti-info li.instagram a {
+	background-image: url(immagini/instagram.ico); 
+	       }
+
+footer {
+	  
+	background-color: #3E6990;
+	padding: 5px 5px 10px 5px;
+	font-size: 0.85em;
+	clear: both;
+	margin-bottom: 0;
+
+}
+
+footer img {
+	max-width: 9%;
+	margin: 0 1em 0 0;
+}
+
+footer img.instagram {
+	
+}
+
+footer img.facebook {
+	padding-left: 3em;
+}
+
+footer p {
+	color: #ffffff;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.container {
+	min-height: 100vh;
+}
+*/
+
+/************************************* END OLD ********************/
 
 .hide {
 	display:none;
