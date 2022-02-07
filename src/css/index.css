@@ -90,12 +90,12 @@ footer div {
   }
   
   .md-button.md-accent {
-    color: #2E75B6;
+    color: green;
   }
   
   md-nav-bar md-nav-ink-bar {
     color: #2E75B6;
-    background: #2E75B6;
+    background: orange;
   }
 
   
