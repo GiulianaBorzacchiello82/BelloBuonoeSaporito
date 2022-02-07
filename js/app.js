@@ -54,6 +54,7 @@ app.directive("contattaci", function() {
 		templateUrl: "/src/partials/contattaci.htm"
 	};
 }).directive("menu", function() {
+	debugger;
 	return {
 		restrict: "E",
 		templateUrl: "/src/partials/menu.htm"
