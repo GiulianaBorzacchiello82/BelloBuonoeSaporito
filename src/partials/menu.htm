@@ -1,0 +1,47 @@
+<header id="masthead" ng-controller="NavigationCtrl as navCtr" >
+        <div id="logo" > 
+         <a href="http://bottegateatralececconi.it/"> 
+             <img src="./src/img/logo4.png" alt="Bottega Teatrale Cecconi" title="Bottega Teatrale Cecconi" height="130">
+         </a>
+        </div>
+
+        <div  class="desktop" >
+          <div style="height: 100%;">
+            <md-content class="md-padding" style="position: fixed;top: 68px;width:100%;    background-color: white;padding-bottom: 0px !important;">
+              <md-nav-bar
+                md-no-ink-bar="disableInkBar"
+                md-selected-nav-item="selectedMenu.id"
+                nav-bar-aria-label="Navigation links">
+                <md-nav-item ng-repeat="(key, link) in menu" md-nav-click="navCtr.goToPage(link)" id="($index)" name="{{link.id}}">
+                  {{link.name}}
+                </md-nav-item>
+              </md-nav-bar>
+            </md-content>
+          </div>
+       </div>
+
+
+        <div class="md-menu-demo menu mobile">
+          <md-menu > 
+            <!-- Trigger element is a md-button with an icon -->
+            <md-button aria-label="MENU" class="md-icon-button" > 
+              <md-icon ng-click="openMenu($mdMenu, $event)" md-menu-origin aria-label="menu"> reorder </md-icon>
+             <!--
+              ALTRI MODI PER INSERIRE UN ICONA:
+              <md-icon aria-label="menu"> reorder </md-icon>
+              <span class="material-icons">reorder</span>  NOTA: md-icon è implicito l'uso della classe material-icons. altrimenti se non si usa md-icons si deve aggiungere
+            -->
+            </md-button>
+            <md-menu-content >
+              <md-menu-item ng-repeat="(key, link) in menu" ng-class="$even ? 'odd' : 'even'">
+                <md-button ng-click="goToPage(link)" id="($index)">
+                  <span >  {{link.name}}</span>
+              </md-menu-item>
+            </md-menu-content>
+          </md-menu>
+       </div>
+
+       
+      
+     
+ </header>
