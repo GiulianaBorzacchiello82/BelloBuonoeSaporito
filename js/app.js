@@ -33,10 +33,7 @@ app.config([ '$routeProvider', function($routeProvider) {
 	};
 
 	$routeProvider
-			.when("/contattaci", {	templateUrl: 'src/partials/contattaci.htm', 
-									/*resolve: {deps: app.resolveScriptDeps(['app/CRIC/js/controllers/homeController',
-									'app/CRIC/js/objects/home'
-									])},*/
+			.when("/contatti", {	templateUrl: 'src/partials/contatti.htm', 
 									controller: 'ContactController'
 			} )
 			.when("/home", {templateUrl: 'src/partials/home.htm', controller: 'HomeController'} )
@@ -47,7 +44,7 @@ app.config([ '$routeProvider', function($routeProvider) {
 }]);
 
 /**************************** DIRETTIVE CUSTOMER ***********************/
-app.directive("contattaci", function() {
+app.directive("contatti", function() {
 	return {
 		restrict: "EAC", /* può essere utilizzata come Elemento/Attributo/Commento*/
 		//template: "<h1>Questo è un titolo</h1>" Oppure template URL
@@ -70,13 +67,13 @@ app.controller('TemplateController', ['$scope' , '$location'
 	                                , function($scope, $location) {
 	
 	// inizializza menu
-	$scope.menu = [{name:"La compagnia",id:"1",file:"home.htm",path:"/home"},
-					{name:"Noi Artisti",id:"2",file:"2.htm",path:"/artisti"},
-					{name:"Le rappresentazioni",id:"3",file:"3.htm",path:"/rappresentazioni"},
-					{name:"Video",id:"4",file:"4.htm",path:"/video"},
-					{name:"Link utili",id:"5",file:"5.htm",path:"/link"},
-					{name:"L'angolo della poesia",id:"6",file:"6.htm",path:"/poesia"},
-					{name:"Contattaci",id:"7",file:"contattaci.htm",path:"/contattaci"}
+	$scope.menu = [{name:"Home",id:"1",file:"home.htm",path:"/home"},
+					{name:"Primi Piatti",id:"2",file:"primiPiatti.htm",path:"/primiPiatti"},
+					{name:"Secondi e contorni",id:"3",file:"secondi.htm",path:"/secondiPiatti"},
+					{name:"PanePizze",id:"4",file:"panePizze.htm",path:"/panePizze"},
+					{name:"Dolci",id:"5",file:"dolci.htm",path:"/dolci"},
+					{name:"Altro ancora",id:"6",file:"altro.htm",path:"/altro"},
+					{name:"Contatti",id:"7",file:"contatti.htm",path:"/contatti"}
 					];
 	$scope.selectedMenu = $scope.menu[0];
 
